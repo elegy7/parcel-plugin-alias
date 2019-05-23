@@ -1,50 +1,26 @@
 {
-  "_from": "parcel-plugin-alias@1.0.2",
-  "_id": "parcel-plugin-alias@1.0.2",
-  "_inBundle": false,
-  "_integrity": "sha512-pu9UfOz2tPdFGag13ZisvNOkTKaHkM5fI9SHZ7Cc2dvOvZz4q2n6kDEEpKMb4KCg60F0wMvdPjVNumWuhWokgw==",
-  "_location": "/parcel-plugin-alias",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "parcel-plugin-alias@1.0.2",
+    "author": {
+        "name": "challenget"
+    },
+    "bugs": {
+        "url": "https://github.com/466023746/parcel-plugin-alias/issues"
+    },
+    "bundleDependencies": [],
+    "deprecated": false,
+    "description": "webpack alias for parcel",
+    "homepage": "https://github.com/466023746/parcel-plugin-alias#readme",
+    "license": "ISC",
+    "main": "index.js",
     "name": "parcel-plugin-alias",
-    "escapedName": "parcel-plugin-alias",
-    "rawSpec": "1.0.2",
-    "saveSpec": null,
-    "fetchSpec": "1.0.2"
-  },
-  "_requiredBy": [
-    "#DEV:/",
-    "#USER"
-  ],
-  "_resolved": "https://registry.npmjs.org/parcel-plugin-alias/-/parcel-plugin-alias-1.0.2.tgz",
-  "_shasum": "008b361c901e9052b940378e34fd7c3d2c6dbdc1",
-  "_spec": "parcel-plugin-alias@1.0.2",
-  "_where": "D:\\Projects\\surveyplus\\tel\\front",
-  "author": {
-    "name": "challenget"
-  },
-  "bugs": {
-    "url": "https://github.com/466023746/parcel-plugin-alias/issues"
-  },
-  "bundleDependencies": false,
-  "deprecated": false,
-  "description": "webpack alias for parcel",
-  "homepage": "https://github.com/466023746/parcel-plugin-alias#readme",
-  "license": "ISC",
-  "main": "index.js",
-  "name": "parcel-plugin-alias",
-  "peerDependencies": {
-    "parcel-bundler": "^1.6.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/466023746/parcel-plugin-alias.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.0.2"
+    "peerDependencies": {
+        "parcel-bundler": "^1.6.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/466023746/parcel-plugin-alias.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "1.0.3"
 }
