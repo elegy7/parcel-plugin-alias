@@ -33,6 +33,10 @@ module.exports = (bundler) => {
                             } else {
                                 filename = alias + filename.substr(name.length);
                             }
+                            if (parent) {
+                                // 通过绝对路径计算相对路径以兼容linux
+                                filename = path.relative(parent.substr(0, parent.lastIndexOf('/')), filename)
+                            }
                         }
                     }
                 }
