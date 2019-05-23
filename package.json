@@ -1,26 +1,11 @@
 {
-    "author": {
-        "name": "challenget"
-    },
-    "bugs": {
-        "url": "https://github.com/466023746/parcel-plugin-alias/issues"
-    },
-    "bundleDependencies": [],
-    "deprecated": false,
-    "description": "webpack alias for parcel",
-    "homepage": "https://github.com/466023746/parcel-plugin-alias#readme",
-    "license": "ISC",
-    "main": "index.js",
-    "name": "parcel-plugin-alias",
-    "peerDependencies": {
-        "parcel-bundler": "^1.6.2"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/466023746/parcel-plugin-alias.git"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "version": "1.0.3"
+  "name": "@elegy7/parcel-plugin-alias",
+  "version": "1.0.4",
+  "description": "Fork from parcel-plugin-alias(fix some isuses)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "challenget",
+  "license": "ISC"
 }

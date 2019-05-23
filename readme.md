@@ -1,5 +1,7 @@
 # Fork from parcel-plugin-alias(fix some isuses)
 
+homepage: https://github.com/466023746/parcel-plugin-alias
+
 # parcel alias
 
 webpack alias for parcel
