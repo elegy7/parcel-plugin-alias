@@ -20,7 +20,6 @@ module.exports = bundler => {
                 if (!result) {
                     filename = filename
                 } else {
-                    // console.log('result', result, filename, parent)
                     for (let name in options) {
                         let alias = options[name]
 
@@ -41,7 +40,7 @@ module.exports = bundler => {
                                 if (parent) {
                                     parent = parent.replace(/\\/g, '/')
                                     // 通过绝对路径计算相对路径以兼容linux
-                                    filename = path
+                                    filename = './' + path
                                         .relative(parent.substr(0, parent.lastIndexOf('/')), filename)
                                         .replace(/\\/g, '/')
                                 }

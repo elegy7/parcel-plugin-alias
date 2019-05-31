@@ -1,6 +1,6 @@
 {
   "name": "@elegy7/parcel-plugin-alias",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Fork from parcel-plugin-alias(fix some isuses)",
   "main": "index.js",
   "scripts": {
